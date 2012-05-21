@@ -1,0 +1,64 @@
+#img1
+{
+	width:200px;
+	height:100px;
+-moz-transition:width 0.5s, height 0.5s, -moz-transform 1s; /* Firefox 4 */
+-webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari and Chrome */
+	}
+img#img1:hover {width:600px;
+height:400px;
+}
+	
+#img1
+{
+	width:200px;
+	height:100px;
+-moz-transition:width 0.5s, height 0.5s, -moz-transform 1s; /* Firefox 4 */
+-webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari and Chrome */
+	}
+	
+#img1:hover {width:600px;
+height:400px;
+}
+
+.btn1 {
+background-color:#006dcc;
+background-image: -moz-linear-gradient(top,#0088cc,#0044cc);
+background-image: -webkit-linear-gradient(top,#0088cc,#0044cc);
+background-image:liner-gradient(top,#0088cc,#0044cc);
+border-color:#0044cc #0044cc #002a80;
+border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+
+}
+.btn1,.btn1:hover {
+text-shadow:0 -1px 0 rgba(0,0,0,0.25);
+color:#ffffff;
+}
+
+
+
+.btn1 {
+background-color:#006dcc;
+background-image: -moz-linear-gradient(top,#0088cc,#0044cc);
+background-image: -webkit-linear-gradient(top,#0088cc,#0044cc);
+background-image:liner-gradient(top,#0088cc,#0044cc);
+border-color:#0044cc #0044cc #002a80;
+border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+
+
+}
+.btn1,.btn1:hover {
+text-shadow:0 -1px 0 rgba(0,0,0,0.25);
+color:#ffffff;
+}
+
+#status {
+    border-width:1px;
+    border-style:solid;
+    width:155px;
+    display:none;
+}
+#login {
+	float:right;
+}

@@ -1,0 +1,39 @@
+.stickytooltip {
+box-shadow: 5px 5px 8px #888; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 5px 5px 8px #888;
+-moz-box-shadow: 5px 5px 8px #888;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+display:none;
+position:absolute;
+display:none;
+border:1px solid black; /*Border around tooltip*/
+background:white;
+z-index:3000;
+width: 250px;
+opacity: 0.9;
+-moz-opacity: 0.9;
+filter:alpha(opacity=9);
+font-size:11px;
+}
+
+
+.stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+background:black;
+color:white;
+padding-top:5px;
+text-align:center;
+font:bold 11px Arial;
+}
+
+.atip {
+	position: relative;
+	padding: 5px 10px 5px 10px;
+	width: 95%;
+}
+.stickytooltip .atip img {
+	width: 150px;
+	height: 120px;
+	padding: 5px 30px 5px 30px;
+}
